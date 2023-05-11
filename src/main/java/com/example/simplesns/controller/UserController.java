@@ -15,6 +15,6 @@ public class UserController {
     @PostMapping
     public void join(){
         //회원가입
-        userService.join();
+        userService.join("","");
     }
 }
